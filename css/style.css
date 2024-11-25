@@ -12,10 +12,10 @@
 
 .control-buttons {
   position: fixed;
-  bottom: 80px;
-  right: 20px;
+  bottom: 10px;
+  
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   gap: 10px;
   z-index: 1000;
 }
@@ -40,7 +40,7 @@
 /* Estilos específicos para pantallas pequeñas */
 @media (max-width: 480px) {
   .gradient-button {
-    width: 120px;
+    width: 130px;
     padding: 10px 15px; /* Reducir el tamaño del padding */
     font-size: 12px;    /* Disminuir el tamaño de la fuente */
     border-radius: 20px; /* Ajustar el borde redondeado */
