@@ -27,7 +27,7 @@
   left: 0;
   color: white;
   font-family: 'Courier New', Courier, monospace;
-
+  text-align: center;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -41,7 +41,7 @@
 
 @media (min-width: 500px) {
   .title {
-    letter-spacing: 20px;
+    letter-spacing: 10px;
   }
 }
 
