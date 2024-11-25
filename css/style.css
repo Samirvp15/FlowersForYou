@@ -10,6 +10,36 @@
   --dark-color: #000;
 }
 
+.control-buttons {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  z-index: 1000;
+}
+
+.gradient-button {
+  padding: 15px 25px;
+  background: transparent;
+  border: 2px solid rgba(167, 255, 238, 0.8);
+  color: #a7ffee;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 25px;
+  text-shadow: 0 0 10px rgba(167, 255, 238, 0.5);
+  box-shadow: 0 0 15px rgba(167, 255, 238, 0.3);
+  transition: all 0.3s ease;
+  white-space: nowrap;
+}
+
+.gradient-button:hover {
+  background: rgba(167, 255, 238, 0.1);
+  box-shadow: 0 0 20px rgba(167, 255, 238, 0.5);
+}
+
 .title {
   position: absolute;
   width: 100%;
