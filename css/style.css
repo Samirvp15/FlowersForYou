@@ -62,7 +62,7 @@
   left: 0;
   color: white;
   font-family: 'Courier New', Courier, monospace;
-  font-size: 70px; /* Tamaño por defecto para pantallas grandes */
+  font-size: 40px; /* Tamaño por defecto para pantallas grandes */
   text-shadow: 0px 0px 20px white;
   word-wrap: break-word; /* Asegura que el texto largo no se salga */
   overflow: hidden; /* Previene desbordes del contenedor */
@@ -70,7 +70,7 @@
 
 @media (max-width: 768px) {
   .title {
-    font-size: 50px; /* Tamaño ajustado para tabletas */
+    font-size: 40px; /* Tamaño ajustado para tabletas */
     margin-top: 30px; /* Ajusta el margen */
   }
 }

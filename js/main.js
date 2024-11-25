@@ -2,7 +2,7 @@ const emojis = ['🥳', '🔥', '🌈', '✨', '💪', '🎉', '☀️'];
 
 onload =  () => {
   const urlParams = new URLSearchParams(window.location.search);
-  const name = urlParams.get('name') || 'Usuario Desconocido 😊'; // Si no hay nombre, usa "Mari" como valor predeterminado
+  const name = urlParams.get('name') || 'Usuario Desconocido'; // Si no hay nombre, usa "Mari" como valor predeterminado
 
   const c = setTimeout(() => {
     document.body.classList.remove('not-loaded');
