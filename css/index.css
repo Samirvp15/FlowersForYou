@@ -93,11 +93,16 @@ a.btn {
   font-size: 1rem;
   color: #fff;
   transition: background-color 0.3s;
-  box-shadow: 0 0 5px #fff;
+  background: linear-gradient(0deg, #A47CF3, #683FEA);
+  box-shadow: inset 0px 1px 0px 0px rgba(255, 255, 255, 0.4),
+    inset 0px -4px 0px 0px rgba(0, 0, 0, 0.2),
+    0px 0px 0px 4px rgba(255, 255, 255, 0.2),
+    0px 0px 180px 0px #9917FF;
+  transform: translateY(-2px);
 }
 
 a.btn:hover {
-  background-color: #555;
+  background-color: #0ebd28;
 }
 
 a.btn svg {
@@ -119,30 +124,24 @@ a.btn svg {
 }
 
 .sparkle {
-  fill: #AAAAAA;
+  fill: rgb(228, 190, 35);
   transition: all 800ms ease;
 }
 
 .text {
   font-weight: 600;
-  color: #AAAAAA;
+  color: white;
   font-size: medium;
+  transition: all 800ms ease;
 }
 
-.btn:hover {
-  background: linear-gradient(0deg, #A47CF3, #683FEA);
-  box-shadow: inset 0px 1px 0px 0px rgba(255, 255, 255, 0.4),
-    inset 0px -4px 0px 0px rgba(0, 0, 0, 0.2),
-    0px 0px 0px 4px rgba(255, 255, 255, 0.2),
-    0px 0px 180px 0px #9917FF;
-  transform: translateY(-2px);
-}
 
 .btn:hover .text {
   color: white;
+  transform: scale(1.2);
+  transition: all 800ms ease;
 }
 
 .btn:hover .sparkle {
-  fill: white;
-  transform: scale(1.2);
+  transform: scale(1.5);
 }
